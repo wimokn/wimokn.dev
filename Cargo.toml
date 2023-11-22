@@ -1,0 +1,18 @@
+[package]
+version = "1.1.1"
+name = "website"
+repository = "https://github.com/wimokn/wimokn.dev"
+authors = ["Wimok"]
+description = "Personal website written in Rust"
+license = "MIT"
+readme = "./README.md"
+edition = "2021"
+
+[dependencies]
+rocket = "=0.5.0-rc.4"
+lazy_static = "1.4.0"
+# serde = "1.0.190"
+# serde_derive = "1.0.190"
+# serde = { version = "1.0.190", features = ["derive"] }
+# chrono = { version = "0.4.31", features = ["serde"] }
+rocket_dyn_templates = { version = "=0.1.0-rc.4", features = ["tera"] }

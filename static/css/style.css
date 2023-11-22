@@ -1,0 +1,110 @@
+@import url("https://fonts.cdnfonts.com/css/proggy-tiny");
+
+* {
+  font-family: "ProggyTinyTT", sans-serif;
+  cursor: text;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 50px;
+  min-height: 99%;
+  width: 100%;
+  min-width: 550px;
+  overflow-x: hidden;
+  color: var(--text-color);
+  background: var(--bg-color);
+}
+
+::selection {
+  color: var(--bg-color);
+  background-color: var(--selection-color);
+}
+::-moz-selection {
+  color: var(--bg-color);
+  background-color: var(--selection-color);
+}
+
+#terminal {
+  line-height: 1.2em;
+  padding-right: 1em;
+}
+
+.command {
+  color: var(--cmd-color);
+  text-shadow: 0 0 5px var(--cmd-shadow);
+}
+
+command:focus,
+input:focus {
+  color: var(--cmd-color);
+  text-shadow: 0 0 5px var(--cmd-shadow);
+}
+
+input,
+label {
+  all: unset;
+  display: inline;
+}
+
+input {
+  caret-color: var(--caret-color);
+}
+
+.user {
+  float: left;
+  color: var(--prompt-color);
+}
+
+._left {
+  overflow: hidden;
+  display: block;
+  padding: 0 4px 0 10px;
+}
+._left input {
+  width: 100%;
+}
+
+.other {
+  color: var(--other-color);
+}
+
+.error {
+  color: var(--error-color);
+}
+
+.highlight {
+  color: var(--highlight-color);
+}
+
+.inherit,
+a {
+  color: var(--link-color);
+}
+a {
+  text-decoration: inherit;
+}
+a:hover {
+  background-color: var(--link-hover-bg);
+  color: var(--link-hover-color);
+}
+a:focus {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    font-size: 19px;
+  }
+}
+@media (min-width: 1280px) {
+  body {
+    font-size: 20px;
+  }
+}

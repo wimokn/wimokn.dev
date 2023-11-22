@@ -1,0 +1,32 @@
+:root {
+  /* default dark mode */
+  --text-color: #73abad;
+  --bg-color: #211d1b;
+  --caret-color: #73abad;
+  --selection-color: #519975;
+  --prompt-color: #519975;
+  --cmd-color: #73ad7c;
+  --cmd-shadow: #73abad;
+  --error-color: #b89076;
+  --highlight-color: #73abad;
+  --link-color: #9c8394;
+  --link-hover-color: #519975;
+  --link-hover-bg: #211d1b;
+  --other-color: #f37485;
+}
+
+[data-theme="light"] {
+  --text-color: #33415a;
+  --bg-color: #eff3f3;
+  --caret-color: #33415a;
+  --selection-color: #308efd;
+  --prompt-color: #027474;
+  --cmd-color: #117dbd;
+  --cmd-shadow: none;
+  --error-color: #ff818a;
+  --highlight-color: #972b4f;
+  --link-color: #117dbd;
+  --link-hover-color: #308efd;
+  --link-hover-bg: #eff3f3;
+  --other-color: #e6eb86;
+}
